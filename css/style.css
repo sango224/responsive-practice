@@ -50,8 +50,6 @@
 
 @media (max-width: 960px) {
   .box3-2 {
-    width: 200px;
-    height: 200px;
     margin-left: 50px;
   }
 }
@@ -75,17 +73,15 @@
   background: #0008ff;
   float: left;
 }
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-}
 @media (max-width: 960px) {
   .box4-1 {
     float: none;
   }
   .clearfix::after {
     display: none;
+    content: "";
+    display: block;
+    clear: both;
   }
 }
 @media (max-width: 960px) {
@@ -94,6 +90,9 @@
   }
   .clearfix::after {
     display: none;
+    content: "";
+    display: block;
+    clear: both;
   }
 }
 .flexbox1 {
@@ -197,7 +196,6 @@
   width: 200px;
   height: 200px;
   background: #ff0000;
-  display: none;
 }
 .box7-2 {
   width: 200px;
